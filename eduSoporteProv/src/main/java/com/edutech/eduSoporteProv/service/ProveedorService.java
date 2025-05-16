@@ -24,4 +24,9 @@ public class ProveedorService{
     public Proveedor findxId(int id){
         return proveedorRepository.findById(id);
     }
+
+    public Proveedor deletexId(int id){
+        return proveedorRepository.deleteById(id);
+    }
+
 }
